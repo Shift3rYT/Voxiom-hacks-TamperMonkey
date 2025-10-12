@@ -16,6 +16,6 @@ These scripts allow users an advantage against others in Voxiom.io
 
 <p>
 Some of these may or may not work, for most developers do not update scripts.
-None of these are made by me, if you wish to be credited, contact my Discord. @Shift3r.
+None of these are made by me, if you wish to be credited, contact my Discord. @Shift3ryt, my old accound (@Shift3r) was banned for around 2 years.
 All of these scripts are tested and virus-free, no script will access any personal data or any files on your computer.
 </p>
