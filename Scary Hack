@@ -8,9 +8,11 @@
 // @icon         https://www.google.com/s2/favicons?domain=voxiom.io
 // @grant        none
 // @license      none
+// @downloadURL https://update.greasyfork.org/scripts/453067/Voxiomio%20scary%20hack.user.js
+// @updateURL https://update.greasyfork.org/scripts/453067/Voxiomio%20scary%20hack.meta.js
 // ==/UserScript==
 const wireFrame = false
- 
+
 const original_push = Array.prototype.push;
 Array.prototype.push = function(...args) {
     original_push.apply(this, args);
