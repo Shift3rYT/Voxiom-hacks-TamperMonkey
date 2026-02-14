@@ -8,25 +8,27 @@
 // @grant        none
 // @license      MIT
 // @namespace    pixelmelt-vox-sniperspeed
+// @downloadURL https://update.greasyfork.org/scripts/442200/Voxiom%20Sniper%20Speed.user.js
+// @updateURL https://update.greasyfork.org/scripts/442200/Voxiom%20Sniper%20Speed.meta.js
 // ==/UserScript==
- 
+
 (function() {
     'use strict';
- 
+
     function keyup49(){
     var kek = new KeyboardEvent("keyup",{
         keyCode: 49
     })
     document.dispatchEvent(kek);
 }
- 
+
 function keyup50(){
     var kek = new KeyboardEvent("keyup",{
         keyCode: 50
     })
     document.dispatchEvent(kek);
 }
- 
+
 var hotbarslot = 1
 document.body.addEventListener('keydown', function(event) {
     if (event.keyCode == 16) {
@@ -42,7 +44,7 @@ document.body.addEventListener('keydown', function(event) {
     }
     hotbarslot = document.getElementsByClassName(`sc-iAzEPL`)[0].parentElement.children[1].innerHTML
 });
- 
+
 document.body.addEventListener('keyup', function(event) {
     if (event.keyCode == 16) {
         if (hotbarslot == 1) {
